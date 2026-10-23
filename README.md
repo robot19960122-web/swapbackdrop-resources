@@ -47,7 +47,7 @@ Tests cover placement math only; real-browser PNG decode, visual layout and expo
 - [`packages/frame-geometry`](packages/frame-geometry): zero-dependency ESM contain/cover geometry package, TypeScript declarations and tests. MIT license applies to that package.
 - [`docker/README.md`](docker/README.md): read-only, non-root container instructions for this static PNG helper. The image uses `dockerhub` source tracking; the original static HTML keeps the intended Hugging Face tracking.
 
-These are distribution sources. A package manifest or Dockerfile is not proof of a successful registry publication; consult the actual registry page and release record.
+The geometry package is published as [`swapbackdrop-frame-geometry@0.1.0` on npm](https://www.npmjs.com/package/swapbackdrop-frame-geometry). Its registry metadata and a fresh install were verified on 2026-10-23. Docker Hub publication remains pending; a Dockerfile is not proof of a registry image.
 
 ## Short-video review checklist
 
