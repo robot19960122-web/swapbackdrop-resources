@@ -1,0 +1,19 @@
+{
+  "name": "swapbackdrop-frame-geometry",
+  "version": "0.1.0",
+  "description": "Zero-dependency contain/cover rectangles for Canvas image composition, with zoom and percentage offsets.",
+  "type": "module",
+  "main": "./geometry.mjs",
+  "types": "./geometry.d.mts",
+  "exports": { ".": { "types": "./geometry.d.mts", "import": "./geometry.mjs" } },
+  "files": ["geometry.mjs", "geometry.d.mts", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": { "test": "node --test test.mjs", "prepublishOnly": "npm test" },
+  "license": "MIT",
+  "author": "SwapBackdrop <support@swapbackdrop.com>",
+  "homepage": "https://swapbackdrop.com/?utm_source=npm&utm_medium=referral&utm_campaign=resource_distribution_202610&utm_content=frame_geometry",
+  "repository": { "type": "git", "url": "git+https://github.com/robot19960122-web/swapbackdrop-resources.git", "directory": "packages/frame-geometry" },
+  "bugs": "https://github.com/robot19960122-web/swapbackdrop-resources/issues",
+  "keywords": ["canvas", "image", "contain", "cover", "geometry", "composition"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" }
+}

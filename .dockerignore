@@ -1,0 +1,9 @@
+**
+!Dockerfile
+!index.html
+!geometry.mjs
+!docker/
+!docker/nginx.conf
+!packages/
+!packages/frame-geometry/
+!packages/frame-geometry/geometry.mjs

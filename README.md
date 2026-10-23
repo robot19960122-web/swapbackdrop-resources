@@ -42,6 +42,13 @@ node --test test.mjs
 
 Tests cover placement math only; real-browser PNG decode, visual layout and exported output must also be checked. No claim of mobile-device or broad browser compatibility is made without that verification.
 
+### Distribution source
+
+- [`packages/frame-geometry`](packages/frame-geometry): zero-dependency ESM contain/cover geometry package, TypeScript declarations and tests. MIT license applies to that package.
+- [`docker/README.md`](docker/README.md): read-only, non-root container instructions for this static PNG helper. The image uses `dockerhub` source tracking; the original static HTML keeps the intended Hugging Face tracking.
+
+These are distribution sources. A package manifest or Dockerfile is not proof of a successful registry publication; consult the actual registry page and release record.
+
 ## Short-video review checklist
 
 - Confirm permission to edit and, separately, to use cloud processing.
